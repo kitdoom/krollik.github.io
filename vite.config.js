@@ -6,7 +6,7 @@ import fs from 'fs';
 import handlebars from 'handlebars';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
 
-const pages = {"en/":{"outputDir":"./en/","lang":"en","title":"","cacheVersion":2,"meta":[{"name":"twitter:card","content":"summary"},{"property":"og:type","content":"website"},{"name":"robots","content":"index, follow"}],"scripts":{"head":"\n","body":"\n"},"baseTag":{"href":"/","target":"_self"},"alternateLinks":[{"rel":"alternate","hreflang":"en","href":"https://221ac00e-fe0b-4a9a-8e15-da4e4aa4ab0d.weweb-preview.io/en/"}]}};
+const pages = {"en/":{"outputDir":"./en/","lang":"en","title":"","cacheVersion":3,"meta":[{"name":"twitter:card","content":"summary"},{"property":"og:type","content":"website"},{"name":"robots","content":"index, follow"}],"scripts":{"head":"\n","body":"\n"},"baseTag":{"href":"/","target":"_self"},"alternateLinks":[{"rel":"alternate","hreflang":"en","href":"https://221ac00e-fe0b-4a9a-8e15-da4e4aa4ab0d.weweb-preview.io/en/"}]}};
 
 // Read the main HTML template
 const template = fs.readFileSync(path.resolve(__dirname, 'template.html'), 'utf-8');
